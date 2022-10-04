@@ -10,7 +10,7 @@ export default function Register() {
   return (
     <>
       <Head>
-        <title>Sign Up - TaxPal</title>
+        <title>Sign Up - The Church of Almighty God</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
@@ -19,17 +19,10 @@ export default function Register() {
           </Link>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
-              Get started for free
+              Get started today!
             </h2>
             <p className="mt-2 text-sm text-gray-700">
-              Already registered?{' '}
-              <Link
-                href="/login"
-                className="font-medium text-blue-600 hover:underline"
-              >
-                Sign in
-              </Link>{' '}
-              to your account.
+              Register for the one-time opportunity of 30 minute private consulatation about Almighty God.
             </p>
           </div>
         </div>
@@ -55,6 +48,24 @@ export default function Register() {
           />
           <TextField
             className="col-span-full"
+            label="Location: City, Country"
+            id="location"
+            name="location"
+            type="location"
+            autoComplete="location"
+            required
+          />
+          <TextField
+            className="col-span-full"
+            label="Phone Number"
+            id="phone"
+            name="phone"
+            type="phone"
+            autoComplete="phone"
+            required
+          />
+          <TextField
+            className="col-span-full"
             label="Email address"
             id="email"
             name="email"
@@ -62,26 +73,6 @@ export default function Register() {
             autoComplete="email"
             required
           />
-          <TextField
-            className="col-span-full"
-            label="Password"
-            id="password"
-            name="password"
-            type="password"
-            autoComplete="new-password"
-            required
-          />
-          <SelectField
-            className="col-span-full"
-            label="How did you hear about us?"
-            id="referral_source"
-            name="referral_source"
-          >
-            <option>AltaVista search</option>
-            <option>Super Bowl commercial</option>
-            <option>Our route 34 city bus ad</option>
-            <option>The “Never Use This” podcast</option>
-          </SelectField>
           <div className="col-span-full">
             <Button
               type="submit"

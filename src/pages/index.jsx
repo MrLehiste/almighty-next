@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NMN iHealth Global - Science Against Aging, Everyone Should Enjoy A Healthy Life!</title>
+        <title>The Church of Almighty God  - The Lord has come the second time and spoken words! Have you heard his words?</title>
         <meta
           name="description"
-          content="NMN iHealth Global - Science Against Aging, Everyone Should Enjoy A Healthy Life!"
+          content="The Church of Almighty God  - The Lord has come the second time and spoken words! Have you heard his words?"
         />
       </Head>
       <Header />
@@ -27,8 +27,6 @@ export default function Home() {
         <SecondaryFeatures />
         <CallToAction />
         <Testimonials />
-        <Pricing />
-        <Faqs />
       </main>
       <Footer />
     </>

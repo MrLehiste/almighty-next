@@ -26,7 +26,7 @@ export function CallToAction() {
             Get started today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your life. Join now so you can start living a healthy life.
+            It’s time to take control of your life. Join now so you can start living a fulfilling life.
           </p>
           <Button href="/register" color="white" className="mt-10">
             Sign up now

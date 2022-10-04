@@ -5,21 +5,15 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotSinclair from '@/images/screenshots/sinclair-comp.jpg'
-import screenshotCeos from '@/images/screenshots/ceos-comp.jpg'
+import bookWordAppears from '@/images/books/the-word-appears-in-the-flesh.jpg'
+
 
 const features = [
   {
-    title: 'Dr. David Sinclair',
+    title: 'The Word Appears In The Flesh',
     description:
-      "Dr. David Sinclair, an internationally acclaimed genetic professor at the Harvard Medical School, first discovered resveratrol as an anti-aging agent and subsequently NMN (Nicotinamide MonoNucleotide), another anti-aging agent but more effective in reversing aging cells in our bodies. He started taking 1000mg of NMN daily in 2013. When he was interviewed in 2022, as shown in the before and after photographs, his physical appearance looks significantly younger than in 2013.",
-    image: screenshotSinclair,
-  },
-  {
-    title: 'Powerful CEOs',
-    description:
-      "NMN is the most powerful anti-aging product (discovery) that counts billionaires such as Warren Buffett, Apple CEO Tim Cook, and Amazon founder Jeff Bezos as beneficiaries of its amazing anti-aging properties. Just look at the before and after photographs of these informed billionaires.",
-    image: screenshotCeos,
+      "Almighty God, Christ of the last days, who has appeared to do His work, expresses all truths that purify and save mankind, and all of them are included in The Word Appears in the Flesh. This has fulfilled what is written in the Bible: “In the beginning was the Word, and the Word was with God, and the Word was God” (Jhn 1:1). As for The Word Appears in the Flesh, this is the first time since the creation of the world that God has addressed all mankind. These utterances form the first text expressed by God among mankind in which He exposes people, guides them, judges them, and speaks heart-to-heart to them and so, too, are they the first utterances in which God lets people know His footsteps, the place in which He lies, God’s disposition, what God has and is, God’s thoughts, and His concern for mankind. It can be said that these are the first utterances that God has spoken to mankind from the third heaven since the creation, and the first time that God has used His inherent identity to appear and express the voice of His heart to mankind amid words. ",
+    image: bookWordAppears,
   },
 ]
 
@@ -43,7 +37,7 @@ export function PrimaryFeatures() {
 
   return (
     <section
-      id="features"
+      id="gospel"
       aria-label="Features for running your books"
       className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
     >
@@ -60,10 +54,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Changes After Taking NMN.
+            GOD'S WORK AND KNOWING GOD
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            NMN Gene BALANCE Improves health and longevity.
+            The Word Appears In The Flesh
           </p>
         </div>
         <Tab.Group

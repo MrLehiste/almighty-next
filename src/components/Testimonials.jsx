@@ -1,49 +1,50 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
+import avatarImage1 from '@/images/avatars/001-ye-cheng.jpg'
+import avatarImage2 from '@/images/avatars/002-anfen.jpg'
+import avatarImage3 from '@/images/avatars/003-zhenxin.jpg'
+import avatarImage4 from '@/images/avatars/004-songyu.jpg'
+import avatarImage5 from '@/images/avatars/005-dingli.jpg'
+import avatarImage6 from '@/images/avatars/006-lizhi.jpg'
 
 const testimonials = [
   [
     {
       content:
-        'NMN is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'A Lesson Learned from Watering New Believers: coming before God and laying down a foundation is a process that takes time. Doing my duty in this way made me feel truly peaceful and at ease.',
       author: {
-        name: 'Sheryl Berge',
+        name: 'By Ye Cheng',
         role: '',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get more NMN products. Please get back to me right away.',
+        'How I Let Go of a Secure Job: choosing to put down my job and take the path of belief in God, I know this was the wisest choice I have ever made in my life. Being able to expend and dedicate my life to preaching the gospel and testifying to God is more valuable and meaningful than anything else I could do.',
       author: {
-        name: 'Amy Hahn',
+        name: 'By Lizhi',
         role: '',
-        image: avatarImage4,
+        image: avatarImage6,
       },
     },
   ],
   [
     {
       content:
-        'The best part about NMN is every time I take it I notice immediate improvements.',
+        'Reflections After Becoming Sick During the Pandemic: Lots of people have died in this pandemic, and I survived entirely thanks to God’s wondrous care and salvation for me. I’m filled with gratitude and praise for God. I give thanks to God for His love and salvation!',
       author: {
-        name: 'Leland Kiehn',
+        name: 'By Ding Li',
         role: '',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I love about NMN, but looking better and healthier is a top one.',
+        'In 2020, I accepted the work of Almighty God in the last days. It was my great blessing to be able to welcome the Lord’s return. To spread this incredibly important good news, I started preaching the gospel',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'By An’fen',
+        role: '',
         image: avatarImage2,
       },
     },
@@ -51,18 +52,18 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to take so many other products, now NMN is all I need.',
+        'Growing Through Failures and Setbacks: I had a real, personal experience that God’s love and salvation for mankind are pure and real. God is always guiding me, leading me—He is by my side. I have more resolve to do my duty and satisfy God.',
       author: {
-        name: 'Peter Renolds',
+        name: 'By Zhenxin',
         role: '',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth such product I have tried, but hands down NMN is the best.',
+        'Through my experience, I realized that people who live by satanic philosophies can only become despicable and mean. Not only do they harm the church’s work, they make God hate and detest them. Practicing the truth and God’s words can bring us true spiritual release and freedom.',
       author: {
-        name: 'Amy Hahn',
+        name: 'By Song Yu',
         role: '',
         image: avatarImage4,
       },
@@ -88,10 +89,10 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by people worldwide.
+          Testimonies
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            NMN is so widely popular.
+          Relying on God Is the Greatest Wisdom.{/* Almighty God is so widely popular. */}
           </p>
         </div>
         <ul className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
