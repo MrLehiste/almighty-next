@@ -47,9 +47,9 @@ export function Hero() {
       <div className="mt-16 lg:mt-24">
         <p className="font-display text-base text-slate-900 font-bold">Christ of the Last Days Has Appeared in China. <br/>Judgment Begins With the House of God.</p>
         <p className="font-display text-base text-slate-900">
-        "And at might there was a cry made, behold, the bridgegroom comes; go you out to meet him" (Matthhew 25:6)
-        <br/>"My sheep hear My voice, and I know them, and the follow Me" (John 10:27)
-        <br/>"Behold, I stand at the door and knock: if any man hear My voice, and open the door, I will come in to him, and will sup with him, and he with Me" (Revelation 3:20)
+        &quot;And at might there was a cry made, behold, the bridgegroom comes; go you out to meet him&quot; (Matthhew 25:6)
+        <br/>&quot;My sheep hear My voice, and I know them, and the follow Me&quot; (John 10:27)
+        <br/>&quot;Behold, I stand at the door and knock: if any man hear My voice, and open the door, I will come in to him, and will sup with him, and he with Me&quot; (Revelation 3:20)
         </p>
         <ul className="hidden mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
           {[

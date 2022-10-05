@@ -216,10 +216,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-          Two thousand years ago, the Lord Jesus said, “Repent: for the kingdom of heaven is at hand” (Matthew 4:17) and promised, “I come quickly” (Revelation 2:7).
+          Two thousand years ago, the Lord Jesus said, &quot;Repent: for the kingdom of heaven is at hand&quot;(Matthew 4:17) and promised, &quot;I come quickly&quot; (Revelation 2:7).
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Generations of Christians had been eagerly looking forward to the Lord Jesus’ return. All of mankind yearned for the Savior to arrive and bring about the complete salvation of humanity. Two thousand years of hoping, and two thousand years of waiting…. Just when the world was at its darkest, when Satan’s evil forces were at their most savage and ferocious in their resistance against God, dawn broke in the East—in China. In 1991, that extraordinary year, the incarnate Son of man, Almighty God, appeared in the house churches to express the truth and to do work. There He began to carry out the work of judgment beginning with the house of God.
+          Generations of Christians had been eagerly looking forward to the Lord Jesus return. All of mankind yearned for the Savior to arrive and bring about the complete salvation of humanity. Two thousand years of hoping, and two thousand years of waiting…. Just when the world was at its darkest, when Satans evil forces were at their most savage and ferocious in their resistance against God, dawn broke in the East—in China. In 1991, that extraordinary year, the incarnate Son of man, Almighty God, appeared in the house churches to express the truth and to do work. There He began to carry out the work of judgment beginning with the house of God.
           </p>
         </div>
         {/* <FeaturesMobile />
